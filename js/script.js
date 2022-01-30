@@ -20,12 +20,13 @@
 // heading.classList.add("subheading");
 
 // Question 5
-// var paragrahps = document.getElementsByTagName("p");
-// var colors = ["red"];
 
-// for(var i=0 ; i < paragrahps.length; i++) {
-//     paragrahps[i].style.background = colors;
+// const paragraphs = document.querySelectorAll("p");
+// console.dir(paragraphs);
 
+// for(let i = 0; i < paragraphs.length; i++) {
+//     console.dir(paragraphs[i].innerHTML);
+//     paragraphs[i].style.color = "red";
 // }
 
 // Question 6
@@ -34,49 +35,48 @@
 // resultsContainer.backgroundColor = "yellow";
 
 // Question 7
-const cats = [
-    {
-        name: "Blob",
-        age: 10
-    },
-    {
-        name: "Harold",
-    },
-    {
-        name: "Blurt",
-        age: 21
-    }
-];
-
-
-// function list(catlist) {
-//     for(let i = 0; i < catlist.length; i++) {
-//         console.log(catlist[i]);
+// const cats = [
+//     {
+//         name: "Blob",
+//         age: 10
+//     },
+//     {
+//         name: "Harold",
+//     },
+//     {
+//         name: "Blurt",
+//         age: 21
 //     }
-// }
-// list(cats);   
+// ];
+
+
+// function listElement(list) {
+//     for(var i = 0; i < cats.length; i++) {
+//         let catName = cats [i].name;
+//         console.log(catName);
+//     }
+// } 
+// listElement();
+     
 
 
 // Question 8
 
+// const catAge = "Age Unknown";
+// const divContainer = document.createElement("div");
+
 // function createCats(cats) {
+//     for(var i = 0; i < list.length; i++)
+//     {
+//         containerHeader = cats[i].name;
+//         var containerHeader = document.createElement("h5");
+//         textItem = cats[i].age;
+//         var textItem = document.createElement("p");
 
-//     let html = "";
-
-//     for(let i = 0; i < createCats.length; i++) {
-
-//         let age = "Age unknown";
-
-//         html += `<div class="cat-container">
-//                     <h5>${cats[i].name}</h5>
-//                     <p>Age: ${age}</p>
-//                 </div>`;
 //     }
 
-//     return html;
+//     cats.forEach((arrayList) => {
+        
+//     });
+
 // }
-
-// const newHTML = createCats(cats);
-
-// const createCats = document.querySelector(".cat-container");
-// cats.innerHTML = newHTML;
